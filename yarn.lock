@@ -163,6 +163,11 @@
     "@babel/helper-string-parser" "^7.25.9"
     "@babel/helper-validator-identifier" "^7.25.9"
 
+"@emotion/unitless@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.10.0.tgz#2af2f7c7e5150f497bdabd848ce7b218a27cf745"
+  integrity sha512-dFoMUuQA20zvtVTuxZww6OHoJYgrzfKM1t52mVySDJnMSEa08ruEvdYQbhvyu6soU+NeLVd3yKfTfT0NeV6qGg==
+
 "@esbuild/aix-ppc64@0.25.0":
   version "0.25.0"
   resolved "https://registry.yarnpkg.com/@esbuild/aix-ppc64/-/aix-ppc64-0.25.0.tgz#499600c5e1757a524990d5d92601f0ac3ce87f64"
@@ -1322,6 +1327,13 @@ react-resizable-panels@^2.1.7:
   version "2.1.7"
   resolved "https://registry.yarnpkg.com/react-resizable-panels/-/react-resizable-panels-2.1.7.tgz#afd29d8a3d708786a9f95183a38803c89f13c2e7"
   integrity sha512-JtT6gI+nURzhMYQYsx8DKkx6bSoOGFp7A3CwMrOb8y5jFHFyqwo9m68UhmXRw57fRVJksFn1TSlm3ywEQ9vMgA==
+
+react-style-stringify@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-style-stringify/-/react-style-stringify-1.1.0.tgz#5f4fa092e6dda6b25475a4a77c80722c8b1def7e"
+  integrity sha512-QCY1SwOsZrOSXTGl67BCnixQO3Sck+4zKl/gfghLzsIdCydrTs8vg3r0pInHsde/qtpFvfMbHc/gREXdTNvo7g==
+  dependencies:
+    "@emotion/unitless" "^0.10.0"
 
 react@^19.0.0:
   version "19.0.0"
