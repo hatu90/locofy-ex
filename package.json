@@ -10,13 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "css-to-style": "^1.4.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-resizable-panels": "^2.1.7",
+    "react-style-editor": "^0.4.0",
     "react-style-stringify": "^1.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
+    "@types/css-to-style": "^1.2.2",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
